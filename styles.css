@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3e6f7; 
+    color: #2c2c54;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 30px; 
+    background-color: #6c5ce7; 
+    color: white; 
+    padding: 20px; 
+    border-radius: 8px; 
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold; 
+    margin-bottom: 10px; 
+    text-transform: uppercase;
+}
+
+
+header h2 {
+    font-size: 1.5rem; 
+    margin-bottom: 15px; 
+}
+
+input[type="text"] {
+    padding: 10px; 
+    width: 100%; 
+    max-width: 400px; 
+    border-radius: 5px; 
+    border: 2px solid #8e44ad; 
+    margin-bottom: 20px; 
+    font-size: 1.1rem; 
+}
+
+.departments-container {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px; 
+}
+
+
+.depts {
+    width: 300px; 
+    height: 200px; 
+    color: white;
+    border-radius: 10px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background-size: cover; 
+    background-position: center; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    cursor: pointer; 
+    transition: transform 0.2s ease-in-out; 
+}
+
+.depts:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+}
+
+
+.depts h3 {
+    font-size: 1.5rem; 
+    text-transform: uppercase; 
+    font-weight: bold; 
+    letter-spacing: 1px; 
+}
+
+
+.pagination {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 20px; 
+}
+
+.page-link {
+    background-color: #8e44ad; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    margin: 0 10px; 
+    cursor: pointer; 
+    transition: background-color 0.2s ease;
+ }
+
+.page-link:disabled {
+    background-color: #d2b4de; 
+    cursor: not-allowed; 
+}
+
+.page-link:hover {
+    background-color: #6c5ce7; 
+}
+
+
+#page-numbers {
+    font-size: 1.2rem; 
+    font-weight: bold; 
+    color: #6c5ce7; 
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2.5rem;
+    }
+        
+    
+        
+
+    .depts {
+        width: 100%; 
+    }
+}

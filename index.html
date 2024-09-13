@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Departments</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>OPEN DAY</h1>
+            <h2>Departments</h2>
+            <input type="text" id="search-dept" placeholder="Search Department..." onkeyup="search()">
+        </header>
+        <section id="alldepartments" class="departments-container">
+        </section>
+        <section id="alldepartments" class="departments-container">
+            <div onclick="clicked(this);" id="1" class="depts">
+            </div>
+        </section>
+        <div class="pagination">
+            <button id="prev" class="page-link" disabled>Previous</button>
+            <span id="page-numbers">Page 1 of X</span>
+            <button id="next" class="page-link">Next</button>
+        </div>
+        <div id="map">
+            <a href="map.html">
+                <button style="background-color: blueviolet;">VIEW LOCATION</button>
+            </a>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEPARTMENT DETAILS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Department Information</h1>
+            <a href="index.html">Back to Departments</a>
+        </header>
+
+        <section class="department-details">
+            <div id="depname"></div>
+            <div id="departimage"></div>
+            <div id="descp"></div>
+        </section>
+    </div>
+
+    <script>
+        // Get department details from localStorage and display them
+        document.getElementById('depname').innerHTML = localStorage.getItem('depname');
+        document.getElementById('departimage').innerHTML = localStorage.getItem('departimage');
+        document.getElementById('descp').innerHTML = localStorage.getItem('descp');
+    </script>
+</body>
+</html>
