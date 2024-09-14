@@ -1,6 +1,6 @@
-![Screenshot (7)](https://github.com/user-attachments/assets/f16e730e-47cf-4a2e-86c4-49f5234c785f)
-![Screenshot (3)](https://github.com/user-attachments/assets/c8035f7d-9f33-49e4-a52f-0d49378b2de0)
-![Screenshot (4)](https://github.com/user-attachments/assets/f1e8f4a3-6d3d-4630-af2b-28f1db25ac61)
-![Screenshot (5)](https://github.com/user-attachments/assets/a1f48c94-5b31-4c22-a7de-dfe4d3d6a4e6)
-![Screenshot (6)](https://github.com/user-attachments/assets/75d842e0-f948-45ee-a2b0-d3d89d8c6917)
+![Screenshot (7)](https://github.com/user-attachments/assets/fd36ce07-c7b8-4107-b116-4f42534681cd)
+![Screenshot (10)](https://github.com/user-attachments/assets/e072d02a-5bdb-4a7b-9e73-6d293e075118)
+![Screenshot (3)](https://github.com/user-attachments/assets/7aaffebb-73f1-470c-99c6-54558c975268)
+![Screenshot (5)](https://github.com/user-attachments/assets/10468980-89f3-4b15-aa76-a9f131e11be4)
+![Screenshot (6)](https://github.com/user-attachments/assets/f406b45c-a546-4b4a-bddb-63cee524ec48)
 # mahatiop
